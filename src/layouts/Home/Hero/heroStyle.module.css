@@ -1,0 +1,56 @@
+.marquee-wrapper {
+    overflow: hidden;
+  }
+
+.marquee-text {
+    white-space: nowrap;
+    will-change: transform;
+    width: max-content;
+    animation: marquee 10s linear infinite;
+}
+
+@keyframes marquee {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.greeting {
+    transform: translateX(80%);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.greeting:hover {
+    transform: translateX(15%);
+}
+
+/* .greeting span {
+    transform: rotate(0deg);
+    transition: all 0.2s ease-in-out;
+
+} */
+
+.greeting:hover .greeting-hand {
+    animation: waving-hand 0.5s ease-in-out;
+    animation-iteration-count: 2;
+}
+
+@keyframes waving-hand {
+    0% {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(-20deg);
+    }
+    75% {
+        transform: rotate(20deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+

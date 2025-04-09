@@ -1,0 +1,33 @@
+
+
+.marquee-slide-1 {
+    white-space: nowrap;
+    will-change: transform;
+    width: max-content;
+    animation: rtl 20s linear infinite;
+}
+
+.marquee-slide-2 {
+    white-space: nowrap;
+    will-change: transform;
+    width: max-content;
+    animation: ltr 15s linear infinite;
+}
+
+@keyframes rtl {
+    from {
+        transform: translateX(0%);
+    }
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes ltr {
+    from {
+        transform: translateX(-50%);
+    }
+    to {
+        transform: translateX(0%);
+    }
+}

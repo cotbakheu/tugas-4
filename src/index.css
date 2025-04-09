@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'NeueMontreal';
+  src: url('/neue-montreal/NeueMontreal-Light.otf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NeueMontreal';
+  src: url('/neue-montreal/NeueMontreal-Regular.otf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NeueMontreal';
+  src: url('/neue-montreal/NeueMontreal-Medium.otf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'NeueMontreal';
+  src: url('/neue-montreal/NeueMontreal-Bold.otf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@theme {
+  --color-light-gray: #C7D0D9;
+  --color-dark-gray: #3C3D3E;
+  --color-slime: #C7D0D9;
+  --color-custom-black: #0B0C0E;
+  --color-off-white: #F4F7FA;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'NeueMontreal', monospace;
+  overflow-x: hidden;
+  color: #3C3D3E;
+}

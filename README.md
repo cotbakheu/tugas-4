@@ -5,6 +5,8 @@
 
 Figma reference: https://www.figma.com/design/rdUyThdkuA3XXuUwRYuGpN/intro-react?node-id=1-40&t=gvJVwDE6vY8NoNkR-0
 
+Published Result: https://tugas-4-seven.vercel.app/
+
 ## Run Locally
 
 Clone the project
